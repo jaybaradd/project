@@ -10,7 +10,7 @@ from keras_facenet import FaceNet  # Ensure you have this imported correctly
 
 embedder = FaceNet()
 detector = MTCNN()
-svm = joblib.load("/Users/rushikesh/Desktop/Jay/vscode_foml/project/svm_model.pkl")  # Update with your SVM model path
+svm = joblib.load("svm_model.pkl")  # Update with your SVM model path
 
 def process_images(input_folder, output_folder):
     os.makedirs(output_folder, exist_ok=True)
