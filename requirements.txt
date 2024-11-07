@@ -1,0 +1,7 @@
+opencv-python-headless  # For OpenCV image processing without GUI dependencies
+tensorflow      # To support FaceNet embedding model
+keras-facenet           # For FaceNet embeddings (may use tensorflow/keras directly if needed)
+mtcnn         # For MTCNN face detection
+scikit-learn     # For SVM model and other ML algorithms
+joblib         # To save and load the SVM model
+numpy          # For numerical computations
