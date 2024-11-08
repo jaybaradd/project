@@ -51,7 +51,7 @@ def process_images(input_folder, output_folder):
         st.write(f"Total saved images: {saved_images_count}")
 
 # Streamlit App
-st.title("Face Recognition Filter")
+st.title("Jay's Photo Filtering App")
 st.write("Upload a folder of images. The app will filter images with your face, allowing you to download the results.")
 
 # Upload images as a zip file
